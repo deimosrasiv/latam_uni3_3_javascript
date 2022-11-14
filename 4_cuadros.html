@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Icono de la página -->
+        <link
+            rel="icon"
+            href="/assets/img/favicon.ico"
+            type="ico"
+            sizes="19x19"
+        />
+        <title>Cuadros de Colores</title>
+        <!-- Bootstrap   -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <!-- Mis Css  -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    </head>
+    <body>
+        <div class="container card mt-4">
+            <p>
+                4. Construye una página web con las siguientes características
+                (Total: 5 puntos)
+            </p>
+
+            <li>
+                Crea 4 divs que tengan alto y ancho de 200px y de distintos
+                colores de fondo usando el atributo style. Cada uno de los divs
+                debe tener un identificador único.
+            </li>
+
+            <li>
+                Crea un script que guarde dentro de una variable global un color
+                dependiendo de la letra del teclado presionada. (2 Puntos).
+                <ul>
+                    <li>Al presionar la letra a un color a tu elección.</li>
+                    <li>
+                        Al presionar la letra s un segundo color a tu elección.
+                    </li>
+                    <li>
+                        Al presionar la letra d un tercer color al presionar la
+                        letra d.
+                    </li>
+                    <li>
+                        Para guardar el color revisa el tip al final del
+                        enunciado.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Dentro del script agrega el evento que al hacerle click a uno de
+                los divs, este cambie de color al color seleccionado. Utiliza
+                addEventListener para agregar el evento. (3 Puntos)
+            </li>
+        </div>
+
+        <div class="container">
+            <h2 id="msgText" style="color: white">
+                Presione una de las siguientes tecla: a - b - c
+            </h2>
+        </div>
+
+        <div class="container">
+            <div class="bockColor bc-01" style="background: #8283aa" id="bc-01">
+                Preciono la tecla de color
+                <p class="colort"></p>
+            </div>
+            <div
+                class="bockColor bc-02"
+                style="background: #b180b3"
+                id="bc-02"
+            ></div>
+            <div
+                class="bockColor bc-03"
+                style="background: #c19ea9"
+                id="bc-03"
+            ></div>
+            <div
+                class="bockColor bc-04"
+                style="background: #f0eeeb"
+                id="bc-04"
+            ></div>
+        </div>
+
+        <!-- SCRIPT  -->
+        <script type="text/javascript" src="assets/js/script4.js"></script>
+    </body>
+</html>

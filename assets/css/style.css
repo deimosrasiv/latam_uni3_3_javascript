@@ -1,0 +1,22 @@
+/*@import url('https.//fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');*/
+
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Prompt", sans-serif;
+}
+body {
+	display: grid;
+	background-image: linear-gradient(315deg, #d67d91 0%, #853aa4 20%);
+	min-height: 100vh;
+}
+
+.bockColor {
+	width: 200px;
+	height: 200px;
+}
