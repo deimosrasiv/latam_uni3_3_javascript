@@ -9,9 +9,6 @@ const ele2 = document.querySelector("#ele2");
 //ele = document.getElementById("ele1")
 //ele.addEventListener("click", pintar);
 
-
-
-
 // 3.1
 function pintar(evento) {
     const elemento = evento.target;
@@ -19,11 +16,6 @@ function pintar(evento) {
 }
 
 ele1.addEventListener("click", pintar);
-
-
-
-
-
 
 //3.2
 ele2.style.backgroundColor = "green";
@@ -37,6 +29,4 @@ ele2.addEventListener("click", function (event) {
     pintar2(event, "yellow");
 });
 
-
-
-ele2.addEventListener("click", ()=> (event, 'yellow'))
+ele2.addEventListener("click", () => (event, "yellow"));
