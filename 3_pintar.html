@@ -1,41 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>3 Pintar</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- Icono de la página -->
+        <link
+            rel="icon"
+            href="/assets/img/favicon.ico"
+            type="ico"
+            sizes="19x19"
+        />
+        <title>Cuadros de Colores</title>
+        <!-- Bootstrap   -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <!-- Mis Css  -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     </head>
     <body>
-        <div id="ele1">hello</div>
+        <div class="container"></div>
+        <div class="container card pt-4">
+            <div class="card py-4 px-4">
+                <div id="ele1">hello</div>
 
-        <div id="ele2">hello 2</div>
+                <div id="ele2">hello 2</div>
+            </div>
 
-        <p>
-            3. Se tiene como base el siguiente ejercicio que cambia el color de
-            un elemento de HTML al hacerle click (Total: 3 Puntos)
-        </p>
+            <p class="pt-4">
+                3. Se tiene como base el siguiente ejercicio que cambia el color
+                de un elemento de HTML al hacerle click (Total: 3 Puntos)
+            </p>
 
-        <p>
-            3.1. Modifica la función para que reciba el elemento clickeado de
-            forma de no tener que seleccionarlo nuevamente dentro de la función
-            (1 Punto). Para obtener el puntaje debes entregar el 3 pintar.html
-            válido funcionando en conjunto con el código modificado.
-        </p>
+            <p>
+                3.1. Modifica la función para que reciba el elemento clickeado
+                de forma de no tener que seleccionarlo nuevamente dentro de la
+                función (1 Punto). Para obtener el puntaje debes entregar el 3
+                pintar.html válido funcionando en conjunto con el código
+                modificado.
+            </p>
 
-        <p>
-            3.2. Modifica el código anterior para poder pasarle un color como
-            argumento a la función pintar. El color debe ser verde (green) por
-            defecto, al hacer clic en el párrafo se debe pasar amarillo como
-            color. (1 Punto).
-        </p>
+            <p>
+                3.2. Modifica el código anterior para poder pasarle un color
+                como argumento a la función pintar. El color debe ser verde
+                (green) por defecto, al hacer clic en el párrafo se debe pasar
+                amarillo como color. (1 Punto).
+            </p>
 
-        <p>
-            3.3. Separa el código en 2 archivos: 3 pintar.html y script.js. El
-            script js debe estar dentro de la carpeta assets/js (1 Punto). Para
-            obtener el puntaje debes entregar los archivos cumplimiento la
-            estructura pedida en conjunto con los requerimientos de 3.1 y 3.2
-        </p>
+            <p>
+                3.3. Separa el código en 2 archivos: 3 pintar.html y script.js.
+                El script js debe estar dentro de la carpeta assets/js (1
+                Punto). Para obtener el puntaje debes entregar los archivos
+                cumplimiento la estructura pedida en conjunto con los
+                requerimientos de 3.1 y 3.2
+            </p>
+        </div>
+
+        <div class="container py-2" align="center">
+                <a class="link" href="index.html">
+                    <img class="imgHome" src="assets/img/home.png" alt="Logo de casa" />
+                </a>
+            </div>
+
+        <footer class="text-center">
+            © 2020-2021 Santiago, Chile Ð€IMØ§¯®Ã§Iv Todos los derechos
+            reservados.
+        </footer>
 
         <script type="text/javascript" src="assets/js/script.js"></script>
     </body>
